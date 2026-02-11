@@ -1,6 +1,7 @@
-# Dolphin-Final-Project-DS4EEB-
+# DS4EEB Final Project
 ## To include in GitHub:
 ### 1. The motivating question, the rationale for the question, and sufficient background information to understand why the question is interesting and important
+#### How does predator presence affect rodent density and vegetation cover?  
 ### 2. Data wrangling and analyses done in R
 ### 3. GitHub repository, scripts, and data organized and documented with metadata
 ### 4. Target audience identified
