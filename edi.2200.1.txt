@@ -1,0 +1,1381 @@
+
+   
+      
+         uid=EDI,o=EDI,dc=edirepository,dc=org
+         all
+      
+      
+         https://orcid.org/0000-0003-1879-6134
+         all
+      
+      
+         public
+         read
+      
+   
+   
+      doi:10.6073/pasta/1845b6ac44c9596cffe29ce6af7749dcData from: Cascading effects of apex predator recovery on rodent foraging activity and seed predation
+      
+         Dr. Tamara Burgos
+         Universidad de Cádiz
+         Post-doctoral researcher
+         			Instituto Universitario de Investigación Marina (INMAR), Campus Río San Pedro, Puerto Real
+			Puerto Real, Cádiz 11510  Spain
+         tamara.burgos@uca.es
+         0000-0003-1879-6134
+      
+      
+         Gema Escribano-Ávila
+         Tragsatec
+         			Department of Quality, Environmental Assessment and Natural Environment, Tragsatec, Julián Camarillo 6B, Madrid, Spain
+			Madrid,    Spain
+         gema.escribano.avila@gmail.com
+         0000-0003-1362-8924
+      
+      
+         J. María Fedriani
+         Estación Biológica de Doñana
+         			Estación Biológica de Doñana (EBD – CSIC), Sevilla, Spain
+			Seville,    Spain
+         fedriani@csic.es
+         0000-0002-1581-2621
+      
+      
+         Emilio Virgós
+         Rey Juan Carlos University
+         			Department of Biology, Geology, Physics y Inorganics Chemistry, Rey Juan Carlos University, Madrid, Spain
+			Mótoles,    Spain
+         emilio.virgos@urjc.es
+         0000-0001-9528-0786
+      
+      2025-11-03
+      
+         This dataset was collected to examine the effects of apex predator presence on post-dispersal seed predation and rodent foraging behavior in Mediterranean ecosystems of southern Spain. The study focused on the Iberian lynx (Lynx pardinus) as a top predator capable of altering mesopredator and small mammal communities through cascading interactions. We used the fleshy-fruited tree Pyrus bourgaeana as a model species and conducted a seed predation experiment in two areas with and without lynx presence. A total of 1152 seeds were placed in 144 seed depots across forest and open habitats and three microhabitat types (rock, shrub, and open ground). Rodent activity and foraging behavior were monitored using 36 camera traps installed at a subset of seed depots, and rodent abundance was estimated with live trapping one week later. The dataset includes seed predation counts, camera-trap records of rodent visits, live-trapping results, and vegetation cover estimates. These data allow investigation of how predation risk and habitat structure influence rodent activity and post-dispersal seed predation dynamics in Mediterranean landscapes.
+      
+      
+         food web
+         granivorous rodents
+         Iberian lynx
+         mammal carnivores
+         mesopredator release
+         predation risk
+         behaviorally mediated trophic cascade
+      
+      
+         This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+      
+      
+         Creative Commons Attribution 4.0 International
+         https://spdx.org/licenses/CC-BY-4.0
+         CC-BY-4.0
+      
+      https://doi.org/10.6073/pasta/1845b6ac44c9596cffe29ce6af7749dc
+         
+            Sierra de Andújar Natural Park (SANP) Located in Sierra Morena in southern Spain (38°14'27.71" N, 4° 4'45.03" W, approximately 740 km²). The SANP is home to one of the largest wild Iberian lynx populations that has recovered from near-extinction in the 1990s without the need for reintroductions. Thanks to successive conservation efforts —such as habitat management and the recovery of key prey like wild rabbits—the current SANP population exceeds 250 individuals (MITECO 2023). However, the lynx’ distribution remains heterogeneous throughout the SANP (see Burgos et al. 2023). This feline typically regulates the abundance of these mesopredators (Jiménez et al. 2019). In lynx rewilding scenarios, the abundance of small mammals increases due to a decrease in overall predation pressure (Burgos et al. 2023).
+            
+               -4.07309
+               -3.969362
+               38.267614
+               38.244133
+            
+         
+         
+            
+               
+                  2020-10-31
+               
+               
+                  2020-11-20
+               
+            
+         
+         
+            All recorded organisms are small mammals (Rodentia). Rodents were identified to species level when possible, including Apodemus sylvaticus, Eliomys quercinus, and Mus spretus. Unidentified individuals were classified as “no_id.”
+            
+               Kingdom
+               Animalia
+               animals
+               202423
+               
+                  Subkingdom
+                  Bilateria
+                  triploblasts
+                  914154
+                  
+                     Infrakingdom
+                     Deuterostomia
+                     914156
+                     
+                        Phylum
+                        Chordata
+                        chordates
+                        158852
+                        
+                           Subphylum
+                           Vertebrata
+                           vertebrates
+                           331030
+                           
+                              Infraphylum
+                              Gnathostomata
+                              914179
+                              
+                                 Superclass
+                                 Tetrapoda
+                                 914181
+                                 
+                                    Class
+                                    Mammalia
+                                    mammals
+                                    179913
+                                    
+                                       Subclass
+                                       Theria
+                                       179916
+                                       
+                                          Infraclass
+                                          Eutheria
+                                          179925
+                                          
+                                             Order
+                                             Rodentia
+                                             rodents
+                                             180130
+                                             
+                                                Suborder
+                                                Myomorpha
+                                                Gerbils
+                                                Hamsters
+                                                Lemmings
+                                                Mice
+                                                Rats
+                                                Voles
+                                                180273
+                                                
+                                                   Superfamily
+                                                   Muroidea
+                                                   970141
+                                                   
+                                                      Family
+                                                      Muridae
+                                                      mice
+                                                      rats
+                                                      voles
+                                                      180360
+                                                      
+                                                         Subfamily
+                                                         Murinae
+                                                         Old World mice
+                                                         Old World rats
+                                                         552328
+                                                         
+                                                            Genus
+                                                            Mus
+                                                            House Mice
+                                                            Old World Mice
+                                                            180365
+                                                            
+                                                               Subgenus
+                                                               Mus (Mus)
+                                                               970550
+                                                               
+                                                                  Species
+                                                                  Mus spretus
+                                                                  Western Mediterranean Mouse
+                                                                  585407
+                                                               
+                                                            
+                                                         
+                                                      
+                                                   
+                                                
+                                             
+                                          
+                                       
+                                    
+                                 
+                              
+                           
+                        
+                     
+                  
+               
+            
+         
+         
+            All recorded organisms are small mammals (Rodentia). Rodents were identified to species level when possible, including Apodemus sylvaticus, Eliomys quercinus, and Mus spretus. Unidentified individuals were classified as “no_id.”
+            
+               Kingdom
+               Animalia
+               animals
+               202423
+               
+                  Subkingdom
+                  Bilateria
+                  triploblasts
+                  914154
+                  
+                     Infrakingdom
+                     Deuterostomia
+                     914156
+                     
+                        Phylum
+                        Chordata
+                        chordates
+                        158852
+                        
+                           Subphylum
+                           Vertebrata
+                           vertebrates
+                           331030
+                           
+                              Infraphylum
+                              Gnathostomata
+                              914179
+                              
+                                 Superclass
+                                 Tetrapoda
+                                 914181
+                                 
+                                    Class
+                                    Mammalia
+                                    mammals
+                                    179913
+                                    
+                                       Subclass
+                                       Theria
+                                       179916
+                                       
+                                          Infraclass
+                                          Eutheria
+                                          179925
+                                          
+                                             Order
+                                             Rodentia
+                                             rodents
+                                             180130
+                                             
+                                                Suborder
+                                                Myomorpha
+                                                Gerbils
+                                                Hamsters
+                                                Lemmings
+                                                Mice
+                                                Rats
+                                                Voles
+                                                180273
+                                                
+                                                   Superfamily
+                                                   Muroidea
+                                                   970141
+                                                   
+                                                      Family
+                                                      Muridae
+                                                      mice
+                                                      rats
+                                                      voles
+                                                      180360
+                                                      
+                                                         Subfamily
+                                                         Murinae
+                                                         Old World mice
+                                                         Old World rats
+                                                         552328
+                                                         
+                                                            Genus
+                                                            Apodemus
+                                                            Field Mice
+                                                            584983
+                                                            
+                                                               Species
+                                                               Apodemus sylvaticus
+                                                               Common Field Mouse
+                                                               Long-tailed Field Mouse
+                                                               585143
+                                                            
+                                                         
+                                                      
+                                                   
+                                                
+                                             
+                                          
+                                       
+                                    
+                                 
+                              
+                           
+                        
+                     
+                  
+               
+            
+         
+         
+            All recorded organisms are small mammals (Rodentia). Rodents were identified to species level when possible, including Apodemus sylvaticus, Eliomys quercinus, and Mus spretus. Unidentified individuals were classified as “no_id.”
+            
+               Kingdom
+               Animalia
+               animals
+               202423
+               
+                  Subkingdom
+                  Bilateria
+                  triploblasts
+                  914154
+                  
+                     Infrakingdom
+                     Deuterostomia
+                     914156
+                     
+                        Phylum
+                        Chordata
+                        chordates
+                        158852
+                        
+                           Subphylum
+                           Vertebrata
+                           vertebrates
+                           331030
+                           
+                              Infraphylum
+                              Gnathostomata
+                              914179
+                              
+                                 Superclass
+                                 Tetrapoda
+                                 914181
+                                 
+                                    Class
+                                    Mammalia
+                                    mammals
+                                    179913
+                                    
+                                       Subclass
+                                       Theria
+                                       179916
+                                       
+                                          Infraclass
+                                          Eutheria
+                                          179925
+                                          
+                                             Order
+                                             Rodentia
+                                             rodents
+                                             180130
+                                             
+                                                Suborder
+                                                Sciuromorpha
+                                                squirrels
+                                                180134
+                                                
+                                                   Family
+                                                   Gliridae
+                                                   Dormice
+                                                   951282
+                                                   
+                                                      Subfamily
+                                                      Leithiinae
+                                                      584942
+                                                      
+                                                         Genus
+                                                         Eliomys
+                                                         Garden Dormice
+                                                         584946
+                                                         
+                                                            Species
+                                                            Eliomys quercinus
+                                                            Garden Dormouse
+                                                            584970
+                                                         
+                                                      
+                                                   
+                                                
+                                             
+                                          
+                                       
+                                    
+                                 
+                              
+                           
+                        
+                     
+                  
+               
+            
+         
+      
+      
+         
+            This dataset represents a single completed study and is not being updated. No ongoing data collection is planned, and the data will remain static as published. Data collection is concluded.
+         
+         notPlanned
+      
+      
+         Tamara Burgos
+         Universidad de Cádiz
+         Post-doctoral researcher
+         			Instituto Universitario de Investigación Marina (INMAR), Campus Río San Pedro, Puerto Real
+			Puerto Real, Cádiz 11510  Spain
+         tamara.burgos@uca.es
+         0000-0003-1879-6134
+      
+      
+         Environmental Data Initiative
+         info@edirepository.org
+         https://edirepository.org
+         0330j0z60
+      
+      Environmental Data Initiative
+      
+         
+            
+               Experimental design
+               
+               We compared the relative abundance and foraging activity of rodents, as well as seed predation rates, at two locations within the SANP: one with Iberian lynx presence (one year-round territorial couple) and a control location without lynx. Presence and absence of lynx was estimated by a previous camera-trapping study (120 camera-traps; 10,644 trap-days) in the same area (Burgos et al. 2023), which provides a highly reliable detection method for this species. These data were further corroborated by scat surveys (Burgos et al. 2024) and personal information from the Iberian lynx monitoring project who have long monitored local lynx individuals through GPS collars. At each study location, we selected two different habitat types: a) mature forest with a dense shrub stratum and b) open landscapes with sparse shrub vegetation and small clusters of isolated trees. Within each habitat type, we identified three microhabitats: a) under a rock (referred to as rock), b) under a shrub (referred to as shrub), and c) in an open area with no vegetation cover (referred to as open).
+               
+               Data collection
+               
+               1) To assess the effect of Iberian lynx presence on rodent seed predation rates, we conducted a seed predation experiment using P. bourgaeana as the study species. This Mediterranean tree produces large-sized fruits (2-3 cm in diameter and ~9.5 g) whose seeds are frequently consumed by rodents (Fedriani and Delibes 2009, Suárez-Esteban et al. 2018, Garrote et al. 2019). The seed predation experiment was conducted in November 2020, coinciding with the peak of P. bourgaeana fruiting and seed dispersal (Fedriani and Delibes 2009). 1152 seeds were directly placed on Petri dishes in each study location, habitat type (forest and open), and microhabitat (rock, shrub, and open), simulating naturally dispersed seeds (8 seeds per dish x 2 replicates x 3 microhabitats x 6 plots x 2 habitats x 2 lynx scenarios). We monitored the experiment for five consecutive days and we visually estimated the percentage of shrub, tree, and rock cover within a 15 m radius from the centre of each plot.  Seed predation rates (proportion of seeds removed) per depot in each location, habitat, and microhabitat were calculated as the total number of seeds predated after five days divided by the total number of seeds dispensed.
+               
+               2) To assess rodent foraging activity patterns, we installed 36 camera traps (Scoutguard SG562-C; white LED) at a subset (25%, n = 36) of the seed depots. They operated continuously (24 hours) throughout the 5-day seed predation experiment. For each rodent visit captured by the cameras, we recorded the time of day (UTC), the duration of each visit (the time in seconds from the first to the last photo), and the seed encounter probability. We defined a seed encounter (coded as 1) as any case in which the rodent manipulated the seed and was visibly observed consuming it. Visits were considered independent if there was a gap of more than 5 minutes between consecutive photos (Villalva and Jordano 2025).
+               
+               3) To estimate the abundance of rodents in our study sites, we conducted live trapping using Sherman traps (model LFA; 7.6 x 8.9 x 22.9 cm) one week after completing the seed predation experiment. We placed 5 traps in each of the 6 plots where the seed predation experiment was conducted, specifically under shrubs, as this microhabitat is most suitable for rodent capture and provides thermal insulation (Torre and Díaz 2004). In total, 120 Sherman traps were dispensed (5 traps per plot x 6 plots x 2 habitats x 2 lynx scenarios) over 3 consecutive nights. The rodent relative abundance index (RAI) was calculated as the total number of captures and recaptures divided by the number of active traps per night for each lynx scenario and habitat type.
+               
+               Statistical analyses
+               
+               To evaluate the effects of Iberian lynx presence on rodent seed predation patterns and foraging activity in our seed predation experiment, we fitted generalized linear mixed models (GLMMs) and generalized linear models (GLMs) using the R package lme4 version 1.1-27.1 (Bates and others 2020). We analyzed the following response variables: (1) seed predation rates (including zero), (2) seed encounter probability (Bernoulli distribution: 0, 1), (3) number of visits to seed depots (including zero) and (4) visit duration. Seed predation rates were derived from visual inspections of the seed depots, whereas the remaining variables were obtained from camera-trap data.
+               
+               We used the presence or absence of the Iberian lynx (L) as a fixed factor in all models. Habitat type (H: forest vs. open) and microhabitat type (M: shrub, rock, open) were included as fixed factors in the models for seed predation, number of visits and visit duration.  Interactions between L x H and L x M were included in their respective models to account for differential effects between lynx scenarios (presence vs. absence). The interaction H x M was also included. Canopy cover (T), shrub cover (S), and rock cover (R), measured at the sampling plot level, were included as covariates in all models. The relative abundance index of rodents (RAI) was included as a covariate in the seed predation, number of visits and visit duration models. For the seed predation and number of visits, the number of days the experiment was active was included as an offset. The sampling plot (n = 24) was included as a random effect in the seed predation model, and the camera (n = 36) was included as a random effect in the visit duration model. In the remaining models, random effects were not included as model selection based on the corrected Akaike Information Criterion (AICc) indicated that mixed and non-mixed models were equivalent (∆AICc ≤ 2).
+               
+               The proposed models included all fixed effects and interaction terms described above. We selected candidate models based on their AICc values. If no other model was within two AICc units of the top-ranked model (∆AICc = 0), the top model was considered the best; however, if other models were within two AICc units of the top model (∆AICc ≤ 2), these were considered a set of models with similar support (Burnham and Anderson 2002).
+               
+               References
+               
+               Bates, D. et al. 2020. Package lme4: linear mixed-effects models. - CRAN-R Packag.
+               Burgos, T. et al. 2023. Top-down and bottom-up effects modulate species co-existence in a context of top predator restoration. - Sci. Rep. 13: 4170.
+               Burgos, T. et al. 2024. Apex predators can structure ecosystems through trophic cascades: Linking the frugivorous behavior and seed dispersal patterns of mesocarnivores. - Funct. Ecol. 00: 1–13.
+               Burnham, K. P. and Anderson, D. R. 2002. Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach (2nd ed).
+               Jiménez, J. et al. 2019. Restoring apex predators can reduce mesopredator abundances. - Biol. Conserv. 238: 108234.
+               Fedriani, J. M. and Delibes, M. 2009a. Seed dispersal in the iberian pear, pyrus bourgaeana: A role for infrequent mutualists. - Écoscience 16: 311–321.
+               Fedriani, J. M. and Delibes, M. 2009b. Functional diversity in fruit-frugivore interactions: a field experiment with Mediterranean mammals. - Ecography (Cop.). 32: 983–992.
+               MITECO 2023. Censo de lince ibérico 2022. [Census of Iberian lynx 2022]. - Available from https//www.miteco.gob.es/gl/biodiversidad/temas/inventarios-nacionales/informecensodelinceiberico2022_tcm37-569643.pdf [Accessed 24 May 2023]. Spanish.
+               Suárez-Esteban, A. et al. 2018. Dangerous life at the edge: Implications of seed predation for roadside revegetation. - Appl. Veg. Sci. 21: 55–63.
+               Garrote, P. J. et al. 2019. Extrinsic factors rather than seed traits mediate strong spatial variation in seed predation. - Perspect. Plant Ecol. Evol. Syst. 38: 39–47.
+               Torre, I. and Díaz, M. 2004. Small mammal abundance in Mediterranean post-fire habitats: A role for predators?. Acta Oecologica 25: 137–142.
+               Villalva, P. and Jordano, P. 2025. A Machine Learning Application to Camera-Traps: Robust Species Interactions Datasets for Analysis of Mutualistic Networks. in press.
+            
+         
+      
+      
+         Trophic cascades and apex predator recovery in complex Mediterranean ecosystems
+         
+            Emilio Virgós
+            Rey Juan Carlos University
+            			Department of Biology, Geology, Physics y Inorganics Chemistry, Rey Juan Carlos University, Madrid, Spain
+			Móstoles,    Spain
+            emilio.virgos@urjc.es
+            0000-0001-9528-0786
+            Principal Investigator
+         
+         
+            Tamara Burgos
+            Universidad de Cádiz
+            			Instituto Universitario de Investigación Marina (INMAR), Campus Río San Pedro, Puerto Real
+			Puerto Real, Cádiz 11510  Spain
+            tamara.burgos@uca.es
+            0000-0003-1879-6134
+            Work team
+         
+         
+            Agencia Estatal de Investigación
+            CGL2017- 84633- P
+            Proyectos de Generación de Conocimiento
+         
+         
+            Ministerio de Ciencia, Innovación y Universidades
+            FPU17/04375
+            FPU fellowship
+         
+      
+      
+         Seed_predation
+         Daily seed predation rates of Pyrus bourgaeana by seed-eating rodents by lynx scenario, habitat and microsite.
+         
+            Seed_predation.csv
+            6882
+            34228d44141b690130d0ad410eb67eda
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ;
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/edi/2200/1/bf77d46a4658e7e4508ab963e05cf04f
+               
+            
+         
+         
+            
+               Lynx
+               Lynx
+               Factor (1, 0) for the presence/absence of the Iberian lynx
+               string
+               
+                  
+                     
+                        
+                           
+                              0
+                              Lynx absence
+                           
+                           
+                              1
+                              Lynx presence
+                           
+                        
+                     
+                  
+               
+            
+            
+               Habitat
+               Habitat
+               Factor for the habitat type (open or forest)
+               string
+               
+                  
+                     
+                        
+                           
+                              Forest
+                              Forest habitat
+                           
+                           
+                              Open
+                              Open habitat, with sparse vegetation
+                           
+                        
+                     
+                  
+               
+            
+            
+               Plot
+               Plot
+               Spatial plot where seed depots were placed
+               string
+               
+                  
+                     
+                        
+                           text
+                        
+                     
+                  
+               
+            
+            
+               Microhabitat
+               Microhabitat
+               Factor for the microsite type (rock, shrub and open)
+               string
+               
+                  
+                     
+                        
+                           
+                              Open
+                              Open microsite where seed depots where placed
+                           
+                           
+                              Rock
+                              Rock microsite where seed depots where placed
+                           
+                           
+                              Shrub
+                              Shrub microsite where seed depots where placed
+                           
+                        
+                     
+                  
+               
+            
+            
+               Code
+               Code
+               Numerical code for each seed depot by habitat type and lynx scenario
+               string
+               
+                  
+                     
+                        
+                           text
+                        
+                     
+                  
+               
+            
+            
+               CAM
+               CAM
+               Numerical code for each camera trap installed
+               string
+               
+                  
+                     
+                        
+                           text
+                        
+                     
+                  
+               
+            
+            
+               Seeds_left0
+               Seeds_left0
+               Number of seeds deployed at the beginning of the experiment in each seed depot
+               float
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_left1
+               Seeds_left1
+               Number of remaining seeds after the first day of the experiment
+               integer
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_predated1
+               Seeds_predated1
+               Number of predated seeds after the first day of the experiment
+               float
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  NA
+                  Seed depot that was found displaced or overturned by animals, which prevented reliable counting of the remaining or predated seeds.
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_left2
+               Seeds_left2
+               Number of remaining seeds after the second day of the experiment
+               integer
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_oredated2
+               Seeds_predated2
+               Number of predated seeds after the second day of the experiment
+               integer
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_left3
+               Seeds_left3
+               Number of remaining seeds after the third day of the experiment
+               integer
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_predated3
+               Seeds_predated3
+               Number of predated seeds after the third day of the experiment
+               float
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  NA
+                  Seed depot that was found displaced or overturned by animals, which prevented reliable counting of the remaining or predated seeds.
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_left4
+               Seeds_left4
+               Number of remaining seeds after the fourth day of the experiment
+               integer
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_predated4
+               Seeds_predated4
+               Number of predated seeds after the fourth day of the experiment
+               float
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_left5
+               Seeds_left5
+               Number of remaining seeds after the fifth day of the experiment
+               integer
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_predated5
+               Seeds_predated5
+               Number of predated seeds after the fifth day of the experiment
+               integer
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+            
+               Seeds_predated_total
+               Seeds_predated_total
+               Total number of seeds predated at the end of the experiment
+               integer
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+         
+         no
+         144
+      
+      
+         Rodent_activity
+         Seed encounter probability (0,1) by visit and visit duration at seed depots by rodents captured by camera traps.
+         
+            Rodent_activity.csv
+            7035
+            59995ec3afeb2e48f2fab83ca6f5341c
+            
+               
+                  1
+                  \n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/edi/2200/1/b2ed87eed56903465cc76723bf96b6f9
+               
+            
+         
+         
+            
+               Lynx
+               Lynx
+               Factor (1, 0) for the presence/absence of the Iberian lynx
+               string
+               
+                  
+                     
+                        
+                           
+                              0
+                              Lynx absence
+                           
+                           
+                              1
+                              Lynx presence
+                           
+                        
+                     
+                  
+               
+            
+            
+               CAM
+               CAM
+               Numerical code for each camera trap installed
+               string
+               
+                  
+                     
+                        
+                           text
+                        
+                     
+                  
+               
+            
+            
+               Day
+               Day
+               Ordinal day of the experiment (from 1 to 5), corresponding to each daily seed check
+               string
+               
+                  
+                     
+                        
+                           text
+                        
+                     
+                  
+               
+            
+            
+               Date
+               Date
+               Calendar date on which each rodent visit was recorded
+               dateTime
+               
+                  
+                     DD/MM/YYYY
+                     
+                  
+               
+            
+            
+               Time1
+               Time1
+               Time of the first photograph in a visit sequence (rodent entry time; 24-h format)
+               dateTime
+               
+                  
+                     hh:mm:ss
+                     
+                  
+               
+            
+            
+               Time2
+               Time2
+               Time of the last photograph in the same visit sequence (rodent exit time; 24-h format)
+               dateTime
+               
+                  
+                     hh:mm:ss
+                     
+                  
+               
+            
+            
+               Duration
+               Duration
+               Visit duration (in seconds), calculated as the time difference between Time2 and Time1
+               dateTime
+               
+                  
+                     hh:mm:ss
+                     
+                  
+               
+            
+            
+               Species
+               Species
+               Rodent species detected during the visit (e.g., Apodemus sylvaticus, Mus spretus), or “no_id” if identification was not possible
+               string
+               
+                  
+                     
+                        
+                           text
+                        
+                     
+                  
+               
+            
+            
+               Seed_encounter
+               Seed_encounter
+               Binary variable (1, 0) indicating whether a seed was predated by a rodent during the visit
+               string
+               
+                  
+                     
+                        
+                           
+                              0
+                              No seed predation
+                           
+                           
+                              1
+                              Seed predation occurred
+                           
+                        
+                     
+                  
+               
+            
+         
+         no
+         109
+      
+      
+         Trapping
+         Live-trapping data from Sherman traps deployed one week after the seed predation experiment.
+         
+            Trapping.csv
+            7620
+            edf2839805cb102e0cee06133ae91fc9
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ;
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/edi/2200/1/7478f58571e8991ec7d1d465618631f0
+               
+            
+         
+         
+            
+               Trap_day
+               Trap_day
+               Ordinal day of the trapping (from 1 to 3), corresponding to each daily trap check
+               string
+               
+                  
+                     
+                        
+                           
+                              1
+                              Day 1 of trapping
+                           
+                           
+                              2
+                              Day 2 of trapping
+                           
+                           
+                              3
+                              Day 3 of trapping
+                           
+                        
+                     
+                  
+               
+            
+            
+               Lynx
+               Lynx
+               Factor (1, 0) for the presence/absence of the Iberian lynx
+               string
+               
+                  
+                     
+                        
+                           
+                              0
+                              Lynx absence
+                           
+                           
+                              1
+                              Lynx presence
+                           
+                        
+                     
+                  
+               
+            
+            
+               Habitat
+               Habitat
+               Factor for the habitat type (open or forest)
+               string
+               
+                  
+                     
+                        
+                           
+                              Forest
+                              Forest habitat
+                           
+                           
+                              Open
+                              Open habitat, with sparse vegetation
+                           
+                        
+                     
+                  
+               
+            
+            
+               Plot
+               Plot
+               Spatial plot where seed depots and traps were placed
+               string
+               
+                  
+                     
+                        
+                           text
+                        
+                     
+                  
+               
+            
+            
+               Trap
+               Trap
+               Sequential trap number within each sampling plot.
+               string
+               
+                  
+                     
+                        
+                           text
+                        
+                     
+                  
+               
+            
+            
+               Species
+               Species
+               Rodent species captured
+               string
+               
+                  
+                     
+                        
+                           text
+                        
+                     
+                  
+               
+               
+                  NA
+                  Empty trap
+               
+            
+            
+               Working
+               Working
+               Binary variable indicating whether the Sherman trap was functional at the time of checking (1 = yes, trap active and set; 0 = no, trap found closed or inactive).
+               string
+               
+                  
+                     
+                        
+                           
+                              no
+                              trap no operative
+                           
+                           
+                              yes
+                              trap operative
+                           
+                        
+                     
+                  
+               
+            
+         
+         no
+         288
+      
+      
+         Vegetation_cover
+         Visual estimates of tree, shrub, and rock cover (%) within 15 m of each sampling plot center.
+         
+            Vegetation_cover.csv
+            555
+            1c9842df698842f498c3247c62a00660
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ;
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/edi/2200/1/6a8d78f357c688043393a9da68c26c6c
+               
+            
+         
+         
+            
+               Lynx
+               Lynx
+               Factor (1, 0) for the presence/absence of the Iberian lynx
+               string
+               
+                  
+                     
+                        
+                           
+                              0
+                              Lynx absence
+                           
+                           
+                              1
+                              Lynx presence
+                           
+                        
+                     
+                  
+               
+            
+            
+               Plot
+               Plot
+               Spatial plot where seed depots and traps were placed
+               string
+               
+                  
+                     
+                        
+                           text
+                        
+                     
+                  
+               
+            
+            
+               Habitat
+               Habitat
+               Factor for the habitat type (open or forest)
+               string
+               
+                  
+                     
+                        
+                           
+                              Forest
+                              Forest habitat
+                           
+                           
+                              Open
+                              Open habitat, with sparse vegetation
+                           
+                        
+                     
+                  
+               
+            
+            
+               Tree
+               Tree
+               Visually estimated percentage cover of trees within 15 meters from the center of the sampling plot
+               integer
+               
+                  
+                     
+                        percent
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/PERCENT
+               
+            
+            
+               Shrub
+               Shrub
+               Visually estimated percentage cover of shrubs within 15 meters from the center of the sampling plot
+               integer
+               
+                  
+                     
+                        percent
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/PERCENT
+               
+            
+            
+               Rock
+               Rock
+               Visually estimated percentage cover of rocks within 15 meters from the center of the sampling plot
+               float
+               
+                  
+                     
+                        percent
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/PERCENT
+               
+            
+         
+         no
+         24
+      
+   
+   
+      
+         
+      
+   

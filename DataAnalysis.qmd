@@ -1,0 +1,118 @@
+---
+title: "DataAnalysis"
+author: Elizabeth Orozco & Alex Stadlinger
+format: pdf
+editor: visual
+---
+
+## Load in packages and unzip files
+
+```{r}
+#load in required packages
+library(tidyr)
+library(ggplot2)
+```
+
+```{r}
+#unzip rodent activity file
+# unzip("edi.2200.1.zip")
+```
+
+## Read in required files
+
+```{r}
+#read in rodent activity file
+rodent_data <- read.csv("Rodent_activity.csv")
+```
+
+```{r}
+#read in trapping data file
+trapping_data <- read.csv("Trapping.csv")
+```
+
+```{r}
+#read in vegetation cover data file
+vegetation_data <- read.csv("Vegetation_cover.csv")
+```
+
+```{r}
+#read in seed predation data
+seed_predation_data <- read.csv("Seed_predation.csv")
+```
+
+## Clean up files
+
+```{r}
+#separate data in trapping_data
+colnames(trapping_data)
+
+trapping_separated <- trapping_data %>%
+  separate(col = Trap_day.Lynx.Habitat.Plot.Trap.Species.Working, 
+           into = c("Trap_day", "Lynx", "Habitat", "Plot", "Trap", "Species", "Working"), 
+           sep = ";")
+```
+
+```{r}
+#separate data in vegetation_data
+colnames(vegetation_data)
+
+vegetation_separated <- vegetation_data %>%
+  separate(col = Lynx.Plot.Habitat.Tree.Shrub.Rock, 
+           into = c("Lynx", "Plot", "Habitat", "Tree", "Shrub", "Rock"), 
+           sep = ";")
+```
+
+```{r}
+#separate seed predation data
+colnames(seed_predation_data)
+
+seed_predation_separated <- seed_predation_data %>%
+  separate(col = Lynx.Habitat.Plot.Microhabitat.Code.CAM.Seeds_left0.Seeds_left1.Seeds_predated1.Seeds_left2.Seeds_oredated2.Seeds_left3.Seeds_predated3.Seeds_left4.Seeds_predated4.Seeds_left5.Seeds_predated5.Seeds_predated_total, 
+           into = c("Lynx", "Habitat", "Plot", "Microhabitat", "Code", "CAM", "Seeds_left0", "Seeds_left1", "Seeds_predated1", "Seeds_left2", "Seeds_oredated2", "Seeds_left3", "Seeds_predated3", "Seeds_left4", "Seeds_predated4", "Seeds_left5", "Seeds_predated5", "Seeds_predated_total"), 
+           sep = ";")
+```
+
+## Graphs!
+
+```{r}
+#plotting seed predation total against lynx presence
+ggplot(data = seed_predation_separated, aes(x = Lynx, y = Seeds_predated_total)) +
+  geom_col()
+```
+
+```{r}
+#plotting seed predation total as a function of habitat type
+ggplot(data = seed_predation_separated, aes(x = Habitat, y = Seeds_predated_total)) +
+  geom_col()
+```
+
+```{r}
+#plotting seed predation total as a function of microhabitat
+ggplot(data = seed_predation_separated, aes(x = Microhabitat, y = Seeds_predated_total)) +
+  geom_col()
+```
+
+```{r}
+#graph 1: lynx = 1, microhabitat = open
+
+```
+
+```{r}
+#graph 2: lynx = 1, microhabitat = rock
+```
+
+```{r}
+#graph 3: lynx = 1, microhabitat = shrub
+```
+
+```{r}
+#graph 4: lynx = 0, microhabitat = open
+```
+
+```{r}
+#graph 5: lynx = 0, microhabitat = rock
+```
+
+```{r}
+#graph 6: lynx = 0, microhabitat = shrub
+```

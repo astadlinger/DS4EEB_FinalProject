@@ -1,0 +1,8 @@
+Manifest file for edi.2200.1.zip created on Wed Feb 11 23:08:49 UTC 2026
+Seed_predation.csv (6882 bytes)
+Rodent_activity.csv (7035 bytes)
+Trapping.csv (7620 bytes)
+Vegetation_cover.csv (555 bytes)
+edi.2200.1.xml (94888 bytes)
+edi.2200.1.txt (54126 bytes)
+edi.2200.1.report.xml (91717 bytes)

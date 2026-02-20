@@ -1,0 +1,1644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.2200.1" system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+   <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+      <allow>
+         <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>https://orcid.org/0000-0003-1879-6134</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset>
+      <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/1845b6ac44c9596cffe29ce6af7749dc</alternateIdentifier><title>Data from: Cascading effects of apex predator recovery on rodent foraging activity and seed predation</title>
+      <creator>
+         <individualName>
+            <salutation>Dr.</salutation>
+            <givenName>Tamara</givenName>
+            <surName>Burgos</surName>
+         </individualName>
+         <organizationName>Universidad de Cádiz</organizationName>
+         <positionName>Post-doctoral researcher</positionName>
+         <address>
+            <deliveryPoint>Instituto Universitario de Investigación Marina (INMAR), Campus Río San Pedro, Puerto Real</deliveryPoint>
+            <city>Puerto Real</city>
+            <administrativeArea>Cádiz</administrativeArea>
+            <postalCode>11510</postalCode>
+            <country>Spain</country>
+         </address>
+         <electronicMailAddress>tamara.burgos@uca.es</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">0000-0003-1879-6134</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Gema</givenName>
+            <surName>Escribano-Ávila</surName>
+         </individualName>
+         <organizationName>Tragsatec</organizationName>
+         <address>
+            <deliveryPoint>Department of Quality, Environmental Assessment and Natural Environment, Tragsatec, Julián Camarillo 6B, Madrid, Spain</deliveryPoint>
+            <city>Madrid</city>
+            <country>Spain</country>
+         </address>
+         <electronicMailAddress>gema.escribano.avila@gmail.com</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">0000-0003-1362-8924</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>J. María</givenName>
+            <surName>Fedriani</surName>
+         </individualName>
+         <organizationName>Estación Biológica de Doñana</organizationName>
+         <address>
+            <deliveryPoint>Estación Biológica de Doñana (EBD – CSIC), Sevilla, Spain</deliveryPoint>
+            <city>Seville</city>
+            <country>Spain</country>
+         </address>
+         <electronicMailAddress>fedriani@csic.es</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">0000-0002-1581-2621</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Emilio</givenName>
+            <surName>Virgós</surName>
+         </individualName>
+         <organizationName>Rey Juan Carlos University</organizationName>
+         <address>
+            <deliveryPoint>Department of Biology, Geology, Physics y Inorganics Chemistry, Rey Juan Carlos University, Madrid, Spain</deliveryPoint>
+            <city>Mótoles</city>
+            <country>Spain</country>
+         </address>
+         <electronicMailAddress>emilio.virgos@urjc.es</electronicMailAddress>
+         <userId
+      directory="https://orcid.org">0000-0001-9528-0786</userId>
+      </creator>
+      <pubDate>2025-11-03</pubDate>
+      <abstract>
+         <para>This dataset was collected to examine the effects of apex predator presence on post-dispersal seed predation and rodent foraging behavior in Mediterranean ecosystems of southern Spain. The study focused on the Iberian lynx (Lynx pardinus) as a top predator capable of altering mesopredator and small mammal communities through cascading interactions. We used the fleshy-fruited tree Pyrus bourgaeana as a model species and conducted a seed predation experiment in two areas with and without lynx presence. A total of 1152 seeds were placed in 144 seed depots across forest and open habitats and three microhabitat types (rock, shrub, and open ground). Rodent activity and foraging behavior were monitored using 36 camera traps installed at a subset of seed depots, and rodent abundance was estimated with live trapping one week later. The dataset includes seed predation counts, camera-trap records of rodent visits, live-trapping results, and vegetation cover estimates. These data allow investigation of how predation risk and habitat structure influence rodent activity and post-dispersal seed predation dynamics in Mediterranean landscapes.</para>
+      </abstract>
+      <keywordSet>
+         <keyword>food web</keyword>
+         <keyword>granivorous rodents</keyword>
+         <keyword>Iberian lynx</keyword>
+         <keyword>mammal carnivores</keyword>
+         <keyword>mesopredator release</keyword>
+         <keyword>predation risk</keyword>
+         <keyword>behaviorally mediated trophic cascade</keyword>
+      </keywordSet>
+      <intellectualRights>
+         <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+      </intellectualRights>
+      <licensed>
+         <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+         <url>https://spdx.org/licenses/CC-BY-4.0</url>
+         <identifier>CC-BY-4.0</identifier>
+      </licensed>
+      <distribution
+      id="10.6073/pasta/1845b6ac44c9596cffe29ce6af7749dc" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+            function="information">https://doi.org/10.6073/pasta/1845b6ac44c9596cffe29ce6af7749dc</url></online></distribution><coverage>
+         <geographicCoverage>
+            <geographicDescription>Sierra de Andújar Natural Park (SANP) Located in Sierra Morena in southern Spain (38°14'27.71" N, 4° 4'45.03" W, approximately 740 km²). The SANP is home to one of the largest wild Iberian lynx populations that has recovered from near-extinction in the 1990s without the need for reintroductions. Thanks to successive conservation efforts —such as habitat management and the recovery of key prey like wild rabbits—the current SANP population exceeds 250 individuals (MITECO 2023). However, the lynx’ distribution remains heterogeneous throughout the SANP (see Burgos et al. 2023). This feline typically regulates the abundance of these mesopredators (Jiménez et al. 2019). In lynx rewilding scenarios, the abundance of small mammals increases due to a decrease in overall predation pressure (Burgos et al. 2023).</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-4.07309</westBoundingCoordinate>
+               <eastBoundingCoordinate>-3.969362</eastBoundingCoordinate>
+               <northBoundingCoordinate>38.267614</northBoundingCoordinate>
+               <southBoundingCoordinate>38.244133</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2020-10-31</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2020-11-20</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+         <taxonomicCoverage>
+            <generalTaxonomicCoverage>All recorded organisms are small mammals (Rodentia). Rodents were identified to species level when possible, including Apodemus sylvaticus, Eliomys quercinus, and Mus spretus. Unidentified individuals were classified as “no_id.”</generalTaxonomicCoverage>
+            <taxonomicClassification>
+               <taxonRankName>Kingdom</taxonRankName>
+               <taxonRankValue>Animalia</taxonRankValue>
+               <commonName>animals</commonName>
+               <taxonId
+              provider="https://www.itis.gov">202423</taxonId>
+               <taxonomicClassification>
+                  <taxonRankName>Subkingdom</taxonRankName>
+                  <taxonRankValue>Bilateria</taxonRankValue>
+                  <commonName>triploblasts</commonName>
+                  <taxonId
+                provider="https://www.itis.gov">914154</taxonId>
+                  <taxonomicClassification>
+                     <taxonRankName>Infrakingdom</taxonRankName>
+                     <taxonRankValue>Deuterostomia</taxonRankValue>
+                     <taxonId
+                  provider="https://www.itis.gov">914156</taxonId>
+                     <taxonomicClassification>
+                        <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Chordata</taxonRankValue>
+                        <commonName>chordates</commonName>
+                        <taxonId
+                    provider="https://www.itis.gov">158852</taxonId>
+                        <taxonomicClassification>
+                           <taxonRankName>Subphylum</taxonRankName>
+                           <taxonRankValue>Vertebrata</taxonRankValue>
+                           <commonName>vertebrates</commonName>
+                           <taxonId
+                      provider="https://www.itis.gov">331030</taxonId>
+                           <taxonomicClassification>
+                              <taxonRankName>Infraphylum</taxonRankName>
+                              <taxonRankValue>Gnathostomata</taxonRankValue>
+                              <taxonId
+                        provider="https://www.itis.gov">914179</taxonId>
+                              <taxonomicClassification>
+                                 <taxonRankName>Superclass</taxonRankName>
+                                 <taxonRankValue>Tetrapoda</taxonRankValue>
+                                 <taxonId
+                          provider="https://www.itis.gov">914181</taxonId>
+                                 <taxonomicClassification>
+                                    <taxonRankName>Class</taxonRankName>
+                                    <taxonRankValue>Mammalia</taxonRankValue>
+                                    <commonName>mammals</commonName>
+                                    <taxonId
+                            provider="https://www.itis.gov">179913</taxonId>
+                                    <taxonomicClassification>
+                                       <taxonRankName>Subclass</taxonRankName>
+                                       <taxonRankValue>Theria</taxonRankValue>
+                                       <taxonId
+                              provider="https://www.itis.gov">179916</taxonId>
+                                       <taxonomicClassification>
+                                          <taxonRankName>Infraclass</taxonRankName>
+                                          <taxonRankValue>Eutheria</taxonRankValue>
+                                          <taxonId
+                                provider="https://www.itis.gov">179925</taxonId>
+                                          <taxonomicClassification>
+                                             <taxonRankName>Order</taxonRankName>
+                                             <taxonRankValue>Rodentia</taxonRankValue>
+                                             <commonName>rodents</commonName>
+                                             <taxonId
+                                  provider="https://www.itis.gov">180130</taxonId>
+                                             <taxonomicClassification>
+                                                <taxonRankName>Suborder</taxonRankName>
+                                                <taxonRankValue>Myomorpha</taxonRankValue>
+                                                <commonName>Gerbils</commonName>
+                                                <commonName>Hamsters</commonName>
+                                                <commonName>Lemmings</commonName>
+                                                <commonName>Mice</commonName>
+                                                <commonName>Rats</commonName>
+                                                <commonName>Voles</commonName>
+                                                <taxonId
+                                    provider="https://www.itis.gov">180273</taxonId>
+                                                <taxonomicClassification>
+                                                   <taxonRankName>Superfamily</taxonRankName>
+                                                   <taxonRankValue>Muroidea</taxonRankValue>
+                                                   <taxonId
+                                    provider="https://www.itis.gov">970141</taxonId>
+                                                   <taxonomicClassification>
+                                                      <taxonRankName>Family</taxonRankName>
+                                                      <taxonRankValue>Muridae</taxonRankValue>
+                                                      <commonName>mice</commonName>
+                                                      <commonName>rats</commonName>
+                                                      <commonName>voles</commonName>
+                                                      <taxonId
+                                    provider="https://www.itis.gov">180360</taxonId>
+                                                      <taxonomicClassification>
+                                                         <taxonRankName>Subfamily</taxonRankName>
+                                                         <taxonRankValue>Murinae</taxonRankValue>
+                                                         <commonName>Old World mice</commonName>
+                                                         <commonName>Old World rats</commonName>
+                                                         <taxonId
+                                    provider="https://www.itis.gov">552328</taxonId>
+                                                         <taxonomicClassification>
+                                                            <taxonRankName>Genus</taxonRankName>
+                                                            <taxonRankValue>Mus</taxonRankValue>
+                                                            <commonName>House Mice</commonName>
+                                                            <commonName>Old World Mice</commonName>
+                                                            <taxonId
+                                    provider="https://www.itis.gov">180365</taxonId>
+                                                            <taxonomicClassification>
+                                                               <taxonRankName>Subgenus</taxonRankName>
+                                                               <taxonRankValue>Mus (Mus)</taxonRankValue>
+                                                               <taxonId
+                                    provider="https://www.itis.gov">970550</taxonId>
+                                                               <taxonomicClassification>
+                                                                  <taxonRankName>Species</taxonRankName>
+                                                                  <taxonRankValue>Mus spretus</taxonRankValue>
+                                                                  <commonName>Western Mediterranean Mouse</commonName>
+                                                                  <taxonId
+            provider="https://www.itis.gov">585407</taxonId>
+                                                               </taxonomicClassification>
+                                                            </taxonomicClassification>
+                                                         </taxonomicClassification>
+                                                      </taxonomicClassification>
+                                                   </taxonomicClassification>
+                                                </taxonomicClassification>
+                                             </taxonomicClassification>
+                                          </taxonomicClassification>
+                                       </taxonomicClassification>
+                                    </taxonomicClassification>
+                                 </taxonomicClassification>
+                              </taxonomicClassification>
+                           </taxonomicClassification>
+                        </taxonomicClassification>
+                     </taxonomicClassification>
+                  </taxonomicClassification>
+               </taxonomicClassification>
+            </taxonomicClassification>
+         </taxonomicCoverage>
+         <taxonomicCoverage>
+            <generalTaxonomicCoverage>All recorded organisms are small mammals (Rodentia). Rodents were identified to species level when possible, including Apodemus sylvaticus, Eliomys quercinus, and Mus spretus. Unidentified individuals were classified as “no_id.”</generalTaxonomicCoverage>
+            <taxonomicClassification>
+               <taxonRankName>Kingdom</taxonRankName>
+               <taxonRankValue>Animalia</taxonRankValue>
+               <commonName>animals</commonName>
+               <taxonId
+              provider="https://www.itis.gov">202423</taxonId>
+               <taxonomicClassification>
+                  <taxonRankName>Subkingdom</taxonRankName>
+                  <taxonRankValue>Bilateria</taxonRankValue>
+                  <commonName>triploblasts</commonName>
+                  <taxonId
+                provider="https://www.itis.gov">914154</taxonId>
+                  <taxonomicClassification>
+                     <taxonRankName>Infrakingdom</taxonRankName>
+                     <taxonRankValue>Deuterostomia</taxonRankValue>
+                     <taxonId
+                  provider="https://www.itis.gov">914156</taxonId>
+                     <taxonomicClassification>
+                        <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Chordata</taxonRankValue>
+                        <commonName>chordates</commonName>
+                        <taxonId
+                    provider="https://www.itis.gov">158852</taxonId>
+                        <taxonomicClassification>
+                           <taxonRankName>Subphylum</taxonRankName>
+                           <taxonRankValue>Vertebrata</taxonRankValue>
+                           <commonName>vertebrates</commonName>
+                           <taxonId
+                      provider="https://www.itis.gov">331030</taxonId>
+                           <taxonomicClassification>
+                              <taxonRankName>Infraphylum</taxonRankName>
+                              <taxonRankValue>Gnathostomata</taxonRankValue>
+                              <taxonId
+                        provider="https://www.itis.gov">914179</taxonId>
+                              <taxonomicClassification>
+                                 <taxonRankName>Superclass</taxonRankName>
+                                 <taxonRankValue>Tetrapoda</taxonRankValue>
+                                 <taxonId
+                          provider="https://www.itis.gov">914181</taxonId>
+                                 <taxonomicClassification>
+                                    <taxonRankName>Class</taxonRankName>
+                                    <taxonRankValue>Mammalia</taxonRankValue>
+                                    <commonName>mammals</commonName>
+                                    <taxonId
+                            provider="https://www.itis.gov">179913</taxonId>
+                                    <taxonomicClassification>
+                                       <taxonRankName>Subclass</taxonRankName>
+                                       <taxonRankValue>Theria</taxonRankValue>
+                                       <taxonId
+                              provider="https://www.itis.gov">179916</taxonId>
+                                       <taxonomicClassification>
+                                          <taxonRankName>Infraclass</taxonRankName>
+                                          <taxonRankValue>Eutheria</taxonRankValue>
+                                          <taxonId
+                                provider="https://www.itis.gov">179925</taxonId>
+                                          <taxonomicClassification>
+                                             <taxonRankName>Order</taxonRankName>
+                                             <taxonRankValue>Rodentia</taxonRankValue>
+                                             <commonName>rodents</commonName>
+                                             <taxonId
+                                  provider="https://www.itis.gov">180130</taxonId>
+                                             <taxonomicClassification>
+                                                <taxonRankName>Suborder</taxonRankName>
+                                                <taxonRankValue>Myomorpha</taxonRankValue>
+                                                <commonName>Gerbils</commonName>
+                                                <commonName>Hamsters</commonName>
+                                                <commonName>Lemmings</commonName>
+                                                <commonName>Mice</commonName>
+                                                <commonName>Rats</commonName>
+                                                <commonName>Voles</commonName>
+                                                <taxonId
+                                    provider="https://www.itis.gov">180273</taxonId>
+                                                <taxonomicClassification>
+                                                   <taxonRankName>Superfamily</taxonRankName>
+                                                   <taxonRankValue>Muroidea</taxonRankValue>
+                                                   <taxonId
+                                    provider="https://www.itis.gov">970141</taxonId>
+                                                   <taxonomicClassification>
+                                                      <taxonRankName>Family</taxonRankName>
+                                                      <taxonRankValue>Muridae</taxonRankValue>
+                                                      <commonName>mice</commonName>
+                                                      <commonName>rats</commonName>
+                                                      <commonName>voles</commonName>
+                                                      <taxonId
+                                    provider="https://www.itis.gov">180360</taxonId>
+                                                      <taxonomicClassification>
+                                                         <taxonRankName>Subfamily</taxonRankName>
+                                                         <taxonRankValue>Murinae</taxonRankValue>
+                                                         <commonName>Old World mice</commonName>
+                                                         <commonName>Old World rats</commonName>
+                                                         <taxonId
+                                    provider="https://www.itis.gov">552328</taxonId>
+                                                         <taxonomicClassification>
+                                                            <taxonRankName>Genus</taxonRankName>
+                                                            <taxonRankValue>Apodemus</taxonRankValue>
+                                                            <commonName>Field Mice</commonName>
+                                                            <taxonId
+                                    provider="https://www.itis.gov">584983</taxonId>
+                                                            <taxonomicClassification>
+                                                               <taxonRankName>Species</taxonRankName>
+                                                               <taxonRankValue>Apodemus sylvaticus</taxonRankValue>
+                                                               <commonName>Common Field Mouse</commonName>
+                                                               <commonName>Long-tailed Field Mouse</commonName>
+                                                               <taxonId
+            provider="https://www.itis.gov">585143</taxonId>
+                                                            </taxonomicClassification>
+                                                         </taxonomicClassification>
+                                                      </taxonomicClassification>
+                                                   </taxonomicClassification>
+                                                </taxonomicClassification>
+                                             </taxonomicClassification>
+                                          </taxonomicClassification>
+                                       </taxonomicClassification>
+                                    </taxonomicClassification>
+                                 </taxonomicClassification>
+                              </taxonomicClassification>
+                           </taxonomicClassification>
+                        </taxonomicClassification>
+                     </taxonomicClassification>
+                  </taxonomicClassification>
+               </taxonomicClassification>
+            </taxonomicClassification>
+         </taxonomicCoverage>
+         <taxonomicCoverage>
+            <generalTaxonomicCoverage>All recorded organisms are small mammals (Rodentia). Rodents were identified to species level when possible, including Apodemus sylvaticus, Eliomys quercinus, and Mus spretus. Unidentified individuals were classified as “no_id.”</generalTaxonomicCoverage>
+            <taxonomicClassification>
+               <taxonRankName>Kingdom</taxonRankName>
+               <taxonRankValue>Animalia</taxonRankValue>
+               <commonName>animals</commonName>
+               <taxonId
+              provider="https://www.itis.gov">202423</taxonId>
+               <taxonomicClassification>
+                  <taxonRankName>Subkingdom</taxonRankName>
+                  <taxonRankValue>Bilateria</taxonRankValue>
+                  <commonName>triploblasts</commonName>
+                  <taxonId
+                provider="https://www.itis.gov">914154</taxonId>
+                  <taxonomicClassification>
+                     <taxonRankName>Infrakingdom</taxonRankName>
+                     <taxonRankValue>Deuterostomia</taxonRankValue>
+                     <taxonId
+                  provider="https://www.itis.gov">914156</taxonId>
+                     <taxonomicClassification>
+                        <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Chordata</taxonRankValue>
+                        <commonName>chordates</commonName>
+                        <taxonId
+                    provider="https://www.itis.gov">158852</taxonId>
+                        <taxonomicClassification>
+                           <taxonRankName>Subphylum</taxonRankName>
+                           <taxonRankValue>Vertebrata</taxonRankValue>
+                           <commonName>vertebrates</commonName>
+                           <taxonId
+                      provider="https://www.itis.gov">331030</taxonId>
+                           <taxonomicClassification>
+                              <taxonRankName>Infraphylum</taxonRankName>
+                              <taxonRankValue>Gnathostomata</taxonRankValue>
+                              <taxonId
+                        provider="https://www.itis.gov">914179</taxonId>
+                              <taxonomicClassification>
+                                 <taxonRankName>Superclass</taxonRankName>
+                                 <taxonRankValue>Tetrapoda</taxonRankValue>
+                                 <taxonId
+                          provider="https://www.itis.gov">914181</taxonId>
+                                 <taxonomicClassification>
+                                    <taxonRankName>Class</taxonRankName>
+                                    <taxonRankValue>Mammalia</taxonRankValue>
+                                    <commonName>mammals</commonName>
+                                    <taxonId
+                            provider="https://www.itis.gov">179913</taxonId>
+                                    <taxonomicClassification>
+                                       <taxonRankName>Subclass</taxonRankName>
+                                       <taxonRankValue>Theria</taxonRankValue>
+                                       <taxonId
+                              provider="https://www.itis.gov">179916</taxonId>
+                                       <taxonomicClassification>
+                                          <taxonRankName>Infraclass</taxonRankName>
+                                          <taxonRankValue>Eutheria</taxonRankValue>
+                                          <taxonId
+                                provider="https://www.itis.gov">179925</taxonId>
+                                          <taxonomicClassification>
+                                             <taxonRankName>Order</taxonRankName>
+                                             <taxonRankValue>Rodentia</taxonRankValue>
+                                             <commonName>rodents</commonName>
+                                             <taxonId
+                                  provider="https://www.itis.gov">180130</taxonId>
+                                             <taxonomicClassification>
+                                                <taxonRankName>Suborder</taxonRankName>
+                                                <taxonRankValue>Sciuromorpha</taxonRankValue>
+                                                <commonName>squirrels</commonName>
+                                                <taxonId
+                                    provider="https://www.itis.gov">180134</taxonId>
+                                                <taxonomicClassification>
+                                                   <taxonRankName>Family</taxonRankName>
+                                                   <taxonRankValue>Gliridae</taxonRankValue>
+                                                   <commonName>Dormice</commonName>
+                                                   <taxonId
+                                    provider="https://www.itis.gov">951282</taxonId>
+                                                   <taxonomicClassification>
+                                                      <taxonRankName>Subfamily</taxonRankName>
+                                                      <taxonRankValue>Leithiinae</taxonRankValue>
+                                                      <taxonId
+                                    provider="https://www.itis.gov">584942</taxonId>
+                                                      <taxonomicClassification>
+                                                         <taxonRankName>Genus</taxonRankName>
+                                                         <taxonRankValue>Eliomys</taxonRankValue>
+                                                         <commonName>Garden Dormice</commonName>
+                                                         <taxonId
+                                    provider="https://www.itis.gov">584946</taxonId>
+                                                         <taxonomicClassification>
+                                                            <taxonRankName>Species</taxonRankName>
+                                                            <taxonRankValue>Eliomys quercinus</taxonRankValue>
+                                                            <commonName>Garden Dormouse</commonName>
+                                                            <taxonId
+        provider="https://www.itis.gov">584970</taxonId>
+                                                         </taxonomicClassification>
+                                                      </taxonomicClassification>
+                                                   </taxonomicClassification>
+                                                </taxonomicClassification>
+                                             </taxonomicClassification>
+                                          </taxonomicClassification>
+                                       </taxonomicClassification>
+                                    </taxonomicClassification>
+                                 </taxonomicClassification>
+                              </taxonomicClassification>
+                           </taxonomicClassification>
+                        </taxonomicClassification>
+                     </taxonomicClassification>
+                  </taxonomicClassification>
+               </taxonomicClassification>
+            </taxonomicClassification>
+         </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+         <description>
+            <para>This dataset represents a single completed study and is not being updated. No ongoing data collection is planned, and the data will remain static as published. Data collection is concluded.</para>
+         </description>
+         <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+         <individualName>
+            <givenName>Tamara</givenName>
+            <surName>Burgos</surName>
+         </individualName>
+         <organizationName>Universidad de Cádiz</organizationName>
+         <positionName>Post-doctoral researcher</positionName>
+         <address>
+            <deliveryPoint>Instituto Universitario de Investigación Marina (INMAR), Campus Río San Pedro, Puerto Real</deliveryPoint>
+            <city>Puerto Real</city>
+            <administrativeArea>Cádiz</administrativeArea>
+            <postalCode>11510</postalCode>
+            <country>Spain</country>
+         </address>
+         <electronicMailAddress>tamara.burgos@uca.es</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">0000-0003-1879-6134</userId>
+      </contact>
+      <publisher>
+         <organizationName>Environmental Data Initiative</organizationName>
+         <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+         <onlineUrl>https://edirepository.org</onlineUrl>
+         <userId
+          directory="https://ror.org">0330j0z60</userId>
+      </publisher>
+      <pubPlace>Environmental Data Initiative</pubPlace>
+      <methods>
+         <methodStep>
+            <description>
+               <para>Experimental design</para>
+               <para/>
+               <para>We compared the relative abundance and foraging activity of rodents, as well as seed predation rates, at two locations within the SANP: one with Iberian lynx presence (one year-round territorial couple) and a control location without lynx. Presence and absence of lynx was estimated by a previous camera-trapping study (120 camera-traps; 10,644 trap-days) in the same area (Burgos et al. 2023), which provides a highly reliable detection method for this species. These data were further corroborated by scat surveys (Burgos et al. 2024) and personal information from the Iberian lynx monitoring project who have long monitored local lynx individuals through GPS collars. At each study location, we selected two different habitat types: a) mature forest with a dense shrub stratum and b) open landscapes with sparse shrub vegetation and small clusters of isolated trees. Within each habitat type, we identified three microhabitats: a) under a rock (referred to as rock), b) under a shrub (referred to as shrub), and c) in an open area with no vegetation cover (referred to as open).</para>
+               <para/>
+               <para>Data collection</para>
+               <para/>
+               <para>1) To assess the effect of Iberian lynx presence on rodent seed predation rates, we conducted a seed predation experiment using P. bourgaeana as the study species. This Mediterranean tree produces large-sized fruits (2-3 cm in diameter and ~9.5 g) whose seeds are frequently consumed by rodents (Fedriani and Delibes 2009, Suárez-Esteban et al. 2018, Garrote et al. 2019). The seed predation experiment was conducted in November 2020, coinciding with the peak of P. bourgaeana fruiting and seed dispersal (Fedriani and Delibes 2009). 1152 seeds were directly placed on Petri dishes in each study location, habitat type (forest and open), and microhabitat (rock, shrub, and open), simulating naturally dispersed seeds (8 seeds per dish x 2 replicates x 3 microhabitats x 6 plots x 2 habitats x 2 lynx scenarios). We monitored the experiment for five consecutive days and we visually estimated the percentage of shrub, tree, and rock cover within a 15 m radius from the centre of each plot.  Seed predation rates (proportion of seeds removed) per depot in each location, habitat, and microhabitat were calculated as the total number of seeds predated after five days divided by the total number of seeds dispensed.</para>
+               <para/>
+               <para>2) To assess rodent foraging activity patterns, we installed 36 camera traps (Scoutguard SG562-C; white LED) at a subset (25%, n = 36) of the seed depots. They operated continuously (24 hours) throughout the 5-day seed predation experiment. For each rodent visit captured by the cameras, we recorded the time of day (UTC), the duration of each visit (the time in seconds from the first to the last photo), and the seed encounter probability. We defined a seed encounter (coded as 1) as any case in which the rodent manipulated the seed and was visibly observed consuming it. Visits were considered independent if there was a gap of more than 5 minutes between consecutive photos (Villalva and Jordano 2025).</para>
+               <para/>
+               <para>3) To estimate the abundance of rodents in our study sites, we conducted live trapping using Sherman traps (model LFA; 7.6 x 8.9 x 22.9 cm) one week after completing the seed predation experiment. We placed 5 traps in each of the 6 plots where the seed predation experiment was conducted, specifically under shrubs, as this microhabitat is most suitable for rodent capture and provides thermal insulation (Torre and Díaz 2004). In total, 120 Sherman traps were dispensed (5 traps per plot x 6 plots x 2 habitats x 2 lynx scenarios) over 3 consecutive nights. The rodent relative abundance index (RAI) was calculated as the total number of captures and recaptures divided by the number of active traps per night for each lynx scenario and habitat type.</para>
+               <para/>
+               <para>Statistical analyses</para>
+               <para/>
+               <para>To evaluate the effects of Iberian lynx presence on rodent seed predation patterns and foraging activity in our seed predation experiment, we fitted generalized linear mixed models (GLMMs) and generalized linear models (GLMs) using the R package lme4 version 1.1-27.1 (Bates and others 2020). We analyzed the following response variables: (1) seed predation rates (including zero), (2) seed encounter probability (Bernoulli distribution: 0, 1), (3) number of visits to seed depots (including zero) and (4) visit duration. Seed predation rates were derived from visual inspections of the seed depots, whereas the remaining variables were obtained from camera-trap data.</para>
+               <para/>
+               <para>We used the presence or absence of the Iberian lynx (L) as a fixed factor in all models. Habitat type (H: forest vs. open) and microhabitat type (M: shrub, rock, open) were included as fixed factors in the models for seed predation, number of visits and visit duration.  Interactions between L x H and L x M were included in their respective models to account for differential effects between lynx scenarios (presence vs. absence). The interaction H x M was also included. Canopy cover (T), shrub cover (S), and rock cover (R), measured at the sampling plot level, were included as covariates in all models. The relative abundance index of rodents (RAI) was included as a covariate in the seed predation, number of visits and visit duration models. For the seed predation and number of visits, the number of days the experiment was active was included as an offset. The sampling plot (n = 24) was included as a random effect in the seed predation model, and the camera (n = 36) was included as a random effect in the visit duration model. In the remaining models, random effects were not included as model selection based on the corrected Akaike Information Criterion (AICc) indicated that mixed and non-mixed models were equivalent (∆AICc ≤ 2).</para>
+               <para/>
+               <para>The proposed models included all fixed effects and interaction terms described above. We selected candidate models based on their AICc values. If no other model was within two AICc units of the top-ranked model (∆AICc = 0), the top model was considered the best; however, if other models were within two AICc units of the top model (∆AICc ≤ 2), these were considered a set of models with similar support (Burnham and Anderson 2002).</para>
+               <para/>
+               <para>References</para>
+               <para/>
+               <para>Bates, D. et al. 2020. Package lme4: linear mixed-effects models. - CRAN-R Packag.</para>
+               <para>Burgos, T. et al. 2023. Top-down and bottom-up effects modulate species co-existence in a context of top predator restoration. - Sci. Rep. 13: 4170.</para>
+               <para>Burgos, T. et al. 2024. Apex predators can structure ecosystems through trophic cascades: Linking the frugivorous behavior and seed dispersal patterns of mesocarnivores. - Funct. Ecol. 00: 1–13.</para>
+               <para>Burnham, K. P. and Anderson, D. R. 2002. Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach (2nd ed).</para>
+               <para>Jiménez, J. et al. 2019. Restoring apex predators can reduce mesopredator abundances. - Biol. Conserv. 238: 108234.</para>
+               <para>Fedriani, J. M. and Delibes, M. 2009a. Seed dispersal in the iberian pear, pyrus bourgaeana: A role for infrequent mutualists. - Écoscience 16: 311–321.</para>
+               <para>Fedriani, J. M. and Delibes, M. 2009b. Functional diversity in fruit-frugivore interactions: a field experiment with Mediterranean mammals. - Ecography (Cop.). 32: 983–992.</para>
+               <para>MITECO 2023. Censo de lince ibérico 2022. [Census of Iberian lynx 2022]. - Available from https//www.miteco.gob.es/gl/biodiversidad/temas/inventarios-nacionales/informecensodelinceiberico2022_tcm37-569643.pdf [Accessed 24 May 2023]. Spanish.</para>
+               <para>Suárez-Esteban, A. et al. 2018. Dangerous life at the edge: Implications of seed predation for roadside revegetation. - Appl. Veg. Sci. 21: 55–63.</para>
+               <para>Garrote, P. J. et al. 2019. Extrinsic factors rather than seed traits mediate strong spatial variation in seed predation. - Perspect. Plant Ecol. Evol. Syst. 38: 39–47.</para>
+               <para>Torre, I. and Díaz, M. 2004. Small mammal abundance in Mediterranean post-fire habitats: A role for predators?. Acta Oecologica 25: 137–142.</para>
+               <para>Villalva, P. and Jordano, P. 2025. A Machine Learning Application to Camera-Traps: Robust Species Interactions Datasets for Analysis of Mutualistic Networks. in press.</para>
+            </description>
+         </methodStep>
+      </methods>
+      <project>
+         <title>Trophic cascades and apex predator recovery in complex Mediterranean ecosystems</title>
+         <personnel>
+            <individualName>
+               <givenName>Emilio</givenName>
+               <surName>Virgós</surName>
+            </individualName>
+            <organizationName>Rey Juan Carlos University</organizationName>
+            <address>
+               <deliveryPoint>Department of Biology, Geology, Physics y Inorganics Chemistry, Rey Juan Carlos University, Madrid, Spain</deliveryPoint>
+               <city>Móstoles</city>
+               <country>Spain</country>
+            </address>
+            <electronicMailAddress>emilio.virgos@urjc.es</electronicMailAddress>
+            <userId
+          directory="https://orcid.org">0000-0001-9528-0786</userId>
+            <role>Principal Investigator</role>
+         </personnel>
+         <personnel>
+            <individualName>
+               <givenName>Tamara</givenName>
+               <surName>Burgos</surName>
+            </individualName>
+            <organizationName>Universidad de Cádiz</organizationName>
+            <address>
+               <deliveryPoint>Instituto Universitario de Investigación Marina (INMAR), Campus Río San Pedro, Puerto Real</deliveryPoint>
+               <city>Puerto Real</city>
+               <administrativeArea>Cádiz</administrativeArea>
+               <postalCode>11510</postalCode>
+               <country>Spain</country>
+            </address>
+            <electronicMailAddress>tamara.burgos@uca.es</electronicMailAddress>
+            <userId
+      directory="https://orcid.org">0000-0003-1879-6134</userId>
+            <role>Work team</role>
+         </personnel>
+         <award>
+            <funderName>Agencia Estatal de Investigación</funderName>
+            <awardNumber>CGL2017- 84633- P</awardNumber>
+            <title>Proyectos de Generación de Conocimiento</title>
+         </award>
+         <award>
+            <funderName>Ministerio de Ciencia, Innovación y Universidades</funderName>
+            <awardNumber>FPU17/04375</awardNumber>
+            <title>FPU fellowship</title>
+         </award>
+      </project>
+      <dataTable
+      id="bf77d46a4658e7e4508ab963e05cf04f" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Seed_predation</entityName>
+         <entityDescription>Daily seed predation rates of Pyrus bourgaeana by seed-eating rodents by lynx scenario, habitat and microsite.</entityDescription>
+         <physical>
+            <objectName>Seed_predation.csv</objectName>
+            <size
+          unit="byte">6882</size>
+            <authentication
+              method="MD5">34228d44141b690130d0ad410eb67eda</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>;</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/edi/2200/1/bf77d46a4658e7e4508ab963e05cf04f</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+            id="d110f43a-c4ea-4786-9d78-28333eaa88c6">
+               <attributeName>Lynx</attributeName>
+               <attributeLabel>Lynx</attributeLabel>
+               <attributeDefinition>Factor (1, 0) for the presence/absence of the Iberian lynx</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="yes">
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>Lynx absence</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Lynx presence</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="c96c7a85-dace-4cad-865c-05a4f62e166e">
+               <attributeName>Habitat</attributeName>
+               <attributeLabel>Habitat</attributeLabel>
+               <attributeDefinition>Factor for the habitat type (open or forest)</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="yes">
+                           <codeDefinition>
+                              <code>Forest</code>
+                              <definition>Forest habitat</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Open</code>
+                              <definition>Open habitat, with sparse vegetation</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="c7ff3e03-d642-4eb2-a0ed-ba1448d196d9">
+               <attributeName>Plot</attributeName>
+               <attributeLabel>Plot</attributeLabel>
+               <attributeDefinition>Spatial plot where seed depots were placed</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="8bd900d4-9ac8-42a7-b6b0-9841c87df04d">
+               <attributeName>Microhabitat</attributeName>
+               <attributeLabel>Microhabitat</attributeLabel>
+               <attributeDefinition>Factor for the microsite type (rock, shrub and open)</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="yes">
+                           <codeDefinition>
+                              <code>Open</code>
+                              <definition>Open microsite where seed depots where placed</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Rock</code>
+                              <definition>Rock microsite where seed depots where placed</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Shrub</code>
+                              <definition>Shrub microsite where seed depots where placed</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="4dea658a-ca98-420f-bdc4-0470045cb8d6">
+               <attributeName>Code</attributeName>
+               <attributeLabel>Code</attributeLabel>
+               <attributeDefinition>Numerical code for each seed depot by habitat type and lynx scenario</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="c8815a39-11d1-49b0-b057-f0f277d185ee">
+               <attributeName>CAM</attributeName>
+               <attributeLabel>CAM</attributeLabel>
+               <attributeDefinition>Numerical code for each camera trap installed</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="a78f2779-9015-4abc-aed4-1fb8c89f46c3">
+               <attributeName>Seeds_left0</attributeName>
+               <attributeLabel>Seeds_left0</attributeLabel>
+               <attributeDefinition>Number of seeds deployed at the beginning of the experiment in each seed depot</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="1b3dafc2-f15b-4301-b529-4658633016bd">
+               <attributeName>Seeds_left1</attributeName>
+               <attributeLabel>Seeds_left1</attributeLabel>
+               <attributeDefinition>Number of remaining seeds after the first day of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="96d6aa57-3fac-4144-9817-4b3a2c8ca2e8">
+               <attributeName>Seeds_predated1</attributeName>
+               <attributeLabel>Seeds_predated1</attributeLabel>
+               <attributeDefinition>Number of predated seeds after the first day of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>Seed depot that was found displaced or overturned by animals, which prevented reliable counting of the remaining or predated seeds.</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="68d12952-09e7-49d4-b6c9-122b31a6e64c">
+               <attributeName>Seeds_left2</attributeName>
+               <attributeLabel>Seeds_left2</attributeLabel>
+               <attributeDefinition>Number of remaining seeds after the second day of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="ede1f4e3-8400-445e-8b0b-318548ed0ecf">
+               <attributeName>Seeds_oredated2</attributeName>
+               <attributeLabel>Seeds_predated2</attributeLabel>
+               <attributeDefinition>Number of predated seeds after the second day of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="870bf424-4af5-4468-a3b7-3d5126c66f5b">
+               <attributeName>Seeds_left3</attributeName>
+               <attributeLabel>Seeds_left3</attributeLabel>
+               <attributeDefinition>Number of remaining seeds after the third day of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="26aa9c07-b776-4387-923f-0344456e6455">
+               <attributeName>Seeds_predated3</attributeName>
+               <attributeLabel>Seeds_predated3</attributeLabel>
+               <attributeDefinition>Number of predated seeds after the third day of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>Seed depot that was found displaced or overturned by animals, which prevented reliable counting of the remaining or predated seeds.</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="730ffa11-23d5-4d14-9bee-8cc8b4629849">
+               <attributeName>Seeds_left4</attributeName>
+               <attributeLabel>Seeds_left4</attributeLabel>
+               <attributeDefinition>Number of remaining seeds after the fourth day of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="8f4bc656-6025-47f6-ba90-9cf9a4a41d06">
+               <attributeName>Seeds_predated4</attributeName>
+               <attributeLabel>Seeds_predated4</attributeLabel>
+               <attributeDefinition>Number of predated seeds after the fourth day of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="6f084262-b4c2-4e4a-99d9-a4d3f0a921d9">
+               <attributeName>Seeds_left5</attributeName>
+               <attributeLabel>Seeds_left5</attributeLabel>
+               <attributeDefinition>Number of remaining seeds after the fifth day of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="e0d2c6f0-2db0-49a9-afb1-f41d75b25a16">
+               <attributeName>Seeds_predated5</attributeName>
+               <attributeLabel>Seeds_predated5</attributeLabel>
+               <attributeDefinition>Number of predated seeds after the fifth day of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="83f0d4c0-cd74-4de3-bd87-086639a798b3">
+               <attributeName>Seeds_predated_total</attributeName>
+               <attributeLabel>Seeds_predated_total</attributeLabel>
+               <attributeDefinition>Total number of seeds predated at the end of the experiment</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <caseSensitive>no</caseSensitive>
+         <numberOfRecords>144</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="b2ed87eed56903465cc76723bf96b6f9" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Rodent_activity</entityName>
+         <entityDescription>Seed encounter probability (0,1) by visit and visit duration at seed depots by rodents captured by camera traps.</entityDescription>
+         <physical>
+            <objectName>Rodent_activity.csv</objectName>
+            <size
+          unit="byte">7035</size>
+            <authentication
+              method="MD5">59995ec3afeb2e48f2fab83ca6f5341c</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/edi/2200/1/b2ed87eed56903465cc76723bf96b6f9</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+            id="2a2e624e-6673-44eb-9a08-9e3fee9ba1c6">
+               <attributeName>Lynx</attributeName>
+               <attributeLabel>Lynx</attributeLabel>
+               <attributeDefinition>Factor (1, 0) for the presence/absence of the Iberian lynx</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="yes">
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>Lynx absence</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Lynx presence</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="78d5324d-ec10-48f4-beae-bb5ca6f96682">
+               <attributeName>CAM</attributeName>
+               <attributeLabel>CAM</attributeLabel>
+               <attributeDefinition>Numerical code for each camera trap installed</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="49042c96-e6d6-4299-ae7e-1707360cfcdf">
+               <attributeName>Day</attributeName>
+               <attributeLabel>Day</attributeLabel>
+               <attributeDefinition>Ordinal day of the experiment (from 1 to 5), corresponding to each daily seed check</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="575c766a-8199-4063-ba06-4eb5cbd9f9b5">
+               <attributeName>Date</attributeName>
+               <attributeLabel>Date</attributeLabel>
+               <attributeDefinition>Calendar date on which each rodent visit was recorded</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>DD/MM/YYYY</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="db55d0b7-2c15-4403-a93f-899377535c75">
+               <attributeName>Time1</attributeName>
+               <attributeLabel>Time1</attributeLabel>
+               <attributeDefinition>Time of the first photograph in a visit sequence (rodent entry time; 24-h format)</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh:mm:ss</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="9e9b4aff-8b3e-4a3f-ac69-909f6a63960f">
+               <attributeName>Time2</attributeName>
+               <attributeLabel>Time2</attributeLabel>
+               <attributeDefinition>Time of the last photograph in the same visit sequence (rodent exit time; 24-h format)</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh:mm:ss</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="d4904f7f-6056-442f-9bc3-e466d139ae88">
+               <attributeName>Duration</attributeName>
+               <attributeLabel>Duration</attributeLabel>
+               <attributeDefinition>Visit duration (in seconds), calculated as the time difference between Time2 and Time1</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh:mm:ss</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="d86df5b8-93c9-4c22-9614-a4581a35ef4b">
+               <attributeName>Species</attributeName>
+               <attributeLabel>Species</attributeLabel>
+               <attributeDefinition>Rodent species detected during the visit (e.g., Apodemus sylvaticus, Mus spretus), or “no_id” if identification was not possible</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="adebeddd-1142-46f7-9ae9-7870a911e456">
+               <attributeName>Seed_encounter</attributeName>
+               <attributeLabel>Seed_encounter</attributeLabel>
+               <attributeDefinition>Binary variable (1, 0) indicating whether a seed was predated by a rodent during the visit</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+      enforced="yes">
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>No seed predation</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Seed predation occurred</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <caseSensitive>no</caseSensitive>
+         <numberOfRecords>109</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="7478f58571e8991ec7d1d465618631f0" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Trapping</entityName>
+         <entityDescription>Live-trapping data from Sherman traps deployed one week after the seed predation experiment.</entityDescription>
+         <physical>
+            <objectName>Trapping.csv</objectName>
+            <size
+          unit="byte">7620</size>
+            <authentication
+              method="MD5">edf2839805cb102e0cee06133ae91fc9</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>;</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/edi/2200/1/7478f58571e8991ec7d1d465618631f0</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+            id="a3ac70ba-367d-4301-8e44-5fa8c0606b7b">
+               <attributeName>Trap_day</attributeName>
+               <attributeLabel>Trap_day</attributeLabel>
+               <attributeDefinition>Ordinal day of the trapping (from 1 to 3), corresponding to each daily trap check</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="yes">
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Day 1 of trapping</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>2</code>
+                              <definition>Day 2 of trapping</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>3</code>
+                              <definition>Day 3 of trapping</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="649d6086-86ba-4661-9686-83f19d74a143">
+               <attributeName>Lynx</attributeName>
+               <attributeLabel>Lynx</attributeLabel>
+               <attributeDefinition>Factor (1, 0) for the presence/absence of the Iberian lynx</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="yes">
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>Lynx absence</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Lynx presence</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="b83bf787-2406-40ac-8423-449334d50eab">
+               <attributeName>Habitat</attributeName>
+               <attributeLabel>Habitat</attributeLabel>
+               <attributeDefinition>Factor for the habitat type (open or forest)</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="yes">
+                           <codeDefinition>
+                              <code>Forest</code>
+                              <definition>Forest habitat</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Open</code>
+                              <definition>Open habitat, with sparse vegetation</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="3e47ff96-4ef9-4029-84f7-b074e32d4917">
+               <attributeName>Plot</attributeName>
+               <attributeLabel>Plot</attributeLabel>
+               <attributeDefinition>Spatial plot where seed depots and traps were placed</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="e822f862-0132-4d58-b820-a35716be2323">
+               <attributeName>Trap</attributeName>
+               <attributeLabel>Trap</attributeLabel>
+               <attributeDefinition>Sequential trap number within each sampling plot.</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="f7878465-801c-4e32-9307-bf70d644ad83">
+               <attributeName>Species</attributeName>
+               <attributeLabel>Species</attributeLabel>
+               <attributeDefinition>Rodent species captured</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>Empty trap</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+            id="fae3bbd4-427c-4e9b-999c-3c2ad0c5c679">
+               <attributeName>Working</attributeName>
+               <attributeLabel>Working</attributeLabel>
+               <attributeDefinition>Binary variable indicating whether the Sherman trap was functional at the time of checking (1 = yes, trap active and set; 0 = no, trap found closed or inactive).</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+      enforced="yes">
+                           <codeDefinition>
+                              <code>no</code>
+                              <definition>trap no operative</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>yes</code>
+                              <definition>trap operative</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <caseSensitive>no</caseSensitive>
+         <numberOfRecords>288</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="6a8d78f357c688043393a9da68c26c6c" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Vegetation_cover</entityName>
+         <entityDescription>Visual estimates of tree, shrub, and rock cover (%) within 15 m of each sampling plot center.</entityDescription>
+         <physical>
+            <objectName>Vegetation_cover.csv</objectName>
+            <size
+          unit="byte">555</size>
+            <authentication
+              method="MD5">1c9842df698842f498c3247c62a00660</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>;</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/edi/2200/1/6a8d78f357c688043393a9da68c26c6c</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+            id="1c244819-af30-43d1-adfa-34dfce9c36f8">
+               <attributeName>Lynx</attributeName>
+               <attributeLabel>Lynx</attributeLabel>
+               <attributeDefinition>Factor (1, 0) for the presence/absence of the Iberian lynx</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="yes">
+                           <codeDefinition>
+                              <code>0</code>
+                              <definition>Lynx absence</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>1</code>
+                              <definition>Lynx presence</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="a69d74c1-088c-44a4-b45e-7b7310617554">
+               <attributeName>Plot</attributeName>
+               <attributeLabel>Plot</attributeLabel>
+               <attributeDefinition>Spatial plot where seed depots and traps were placed</attributeDefinition>
+               <storageType
+          typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="e4f7ff08-b83b-4e5a-b7ed-76635e647227">
+               <attributeName>Habitat</attributeName>
+               <attributeLabel>Habitat</attributeLabel>
+               <attributeDefinition>Factor for the habitat type (open or forest)</attributeDefinition>
+               <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain
+          enforced="yes">
+                           <codeDefinition>
+                              <code>Forest</code>
+                              <definition>Forest habitat</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Open</code>
+                              <definition>Open habitat, with sparse vegetation</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+            id="99e40376-31f2-44ee-bfd2-929dd31d04fc">
+               <attributeName>Tree</attributeName>
+               <attributeLabel>Tree</attributeLabel>
+               <attributeDefinition>Visually estimated percentage cover of trees within 15 meters from the center of the sampling plot</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="3ae1f086-de72-42ab-80d5-0fe4844d5414">
+               <attributeName>Shrub</attributeName>
+               <attributeLabel>Shrub</attributeLabel>
+               <attributeDefinition>Visually estimated percentage cover of shrubs within 15 meters from the center of the sampling plot</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+            id="947c1d07-c417-417c-ac49-81d30938e361">
+               <attributeName>Rock</attributeName>
+               <attributeLabel>Rock</attributeLabel>
+               <attributeDefinition>Visually estimated percentage cover of rocks within 15 meters from the center of the sampling plot</attributeDefinition>
+               <storageType
+              typeSystem="XML Schema Datatypes">float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+        label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <caseSensitive>no</caseSensitive>
+         <numberOfRecords>24</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <emlEditor
+        app="ezEML" release="2025.09.10"/>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>
