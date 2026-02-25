@@ -74,6 +74,11 @@ seed_predation_separated <- seed_predation_data %>%
            sep = ";")
 ```
 
+```{r}
+#make seed predated total column numeric
+seed_predation_separated$Seeds_predated_total <- as.numeric(seed_predation_separated$Seeds_predated_total)
+```
+
 ## Graphs!
 
 ```{r}
@@ -98,51 +103,82 @@ ggplot(data = seed_predation_separated, aes(x = Microhabitat, y = Seeds_predated
 #graph 1: lynx = 1, microhabitat = open
 lynx_open <- filter(seed_predation_separated, Lynx == "1", Microhabitat == "Open")
 
-g1 <- ggplot(data = lynx_open, aes(x = Habitat, y = Seeds_predated_total)) +
+g1 <- ggplot(data = lynx_open, aes(x = Habitat, y = Seeds_predated_total, fill = Habitat)) + 
   geom_col()
+  labs(x = "Microhabitat",
+       y = "Total Number of Seeds Predated",
+       title = "Lynx Present")
 ```
 
 ```{r}
 #graph 2: lynx = 1, microhabitat = rock
 lynx_rock <- filter(seed_predation_separated, Lynx == "1", Microhabitat == "Rock")
 
-g2 <- ggplot(data = lynx_rock, aes(x = Habitat, y = Seeds_predated_total)) +
-  geom_col()
+g2 <- ggplot(data = lynx_rock, aes(x = Habitat, y = Seeds_predated_total, fill = Habitat)) +
+  geom_col() + 
+  labs(x = "Microhabitat",
+       y = "Total Number of Seeds Predated",
+       title = "Lynx Present")
 ```
 
 ```{r}
 #graph 3: lynx = 1, microhabitat = shrub
 lynx_shrub <- filter(seed_predation_separated, Lynx == "1", Microhabitat == "Shrub")
 
-g3 <- ggplot(data = lynx_shrub, aes(x = Habitat, y = Seeds_predated_total)) +
-  geom_col()
+g3 <- ggplot(data = lynx_shrub, aes(x = Habitat, y = Seeds_predated_total, fill = Habitat)) +
+  geom_col() + 
+  labs(x = "Microhabitat",
+       y = "Total Number of Seeds Predated",
+       title = "Lynx Present")
 ```
 
 ```{r}
 #graph 4: lynx = 0, microhabitat = open
 noLynx_open <- filter(seed_predation_separated, Lynx == "0", Microhabitat == "Open")
 
-g4 <- ggplot(data = lynx_open, aes(x = Habitat, y = Seeds_predated_total)) +
-  geom_col()
+g4 <- ggplot(data = lynx_open, aes(x = Habitat, y = Seeds_predated_total, fill = Habitat)) +
+  geom_col() + 
+  labs(x = "Microhabitat",
+       y = "Total Number of Seeds Predated",
+       title = "No Lynx Present")
 ```
 
 ```{r}
 #graph 5: lynx = 0, microhabitat = rock
 noLynx_rock <- filter(seed_predation_separated, Lynx == "0", Microhabitat == "Rock")
 
-g5 <- ggplot(data = noLynx_rock, aes(x = Habitat, y = Seeds_predated_total)) +
-  geom_col()
+g5 <- ggplot(data = noLynx_rock, aes(x = Habitat, y = Seeds_predated_total, fill = Habitat)) +
+  geom_col() + 
+  labs(x = "Microhabitat",
+       y = "Total Number of Seeds Predated",
+       title = "No Lynx Present")
 ```
 
 ```{r}
 #graph 6: lynx = 0, microhabitat = shrub
 noLynx_shrub <- filter(seed_predation_separated, Lynx == "0", Microhabitat == "Shrub")
 
-g6 <- ggplot(data = noLynx_shrub, aes(x = Habitat, y = Seeds_predated_total)) +
-  geom_col()
+g6 <- ggplot(data = noLynx_shrub, aes(x = Habitat, y = Seeds_predated_total, fill = Habitat)) +
+  geom_col() + 
+  labs(x = "Microhabitat",
+       y = "Total Number of Seeds Predated",
+       title = "No Lynx Present")
 ```
 
 ```{r}
-#panel all 6 graphs together
-(g1 / g2 / g3) + (g4 / g5 / g6)
+#open
+(g1 + g4) + plot_annotation(
+  title = 'Microhabitat: Open')
+```
+
+```{r}
+#rock
+(g2 + g5) + plot_annotation(
+  title = 'Microhabitat: Rock')
+```
+
+```{r}
+#shrub
+(g3 + g6) + plot_annotation(
+  title = 'Microhabitat: Shrub')
 ```
