@@ -5,7 +5,7 @@ format: pdf
 editor: visual
 ---
 
-## Load in packages and unzip files
+## *Load in packages and unzip files*
 
 ```{r}
 #load in required packages
@@ -14,6 +14,7 @@ library(dplyr)
 library(ggplot2)
 library(patchwork)
 library(brms)
+library(ggeffects)
 ```
 
 ```{r}
@@ -21,7 +22,7 @@ library(brms)
 # unzip("edi.2200.1.zip")
 ```
 
-## Read in required files
+## *Read in required files*
 
 ```{r}
 #read in rodent activity file
@@ -43,7 +44,7 @@ vegetation_data <- read.csv("Vegetation_cover.csv")
 seed_predation_data <- read.csv("Seed_predation.csv")
 ```
 
-## Clean up files
+## *Clean up files*
 
 ```{r}
 #separate data in trapping_data
@@ -78,9 +79,14 @@ seed_predation_separated <- seed_predation_data %>%
 ```{r}
 #make seed predated total column numeric
 seed_predation_separated$Seeds_predated_total <- as.numeric(seed_predation_separated$Seeds_predated_total)
+
+seed_predation_separated <- seed_predation_separated %>% 
+  mutate(Seeds_predated_total = as.numeric(Seeds_predated_total),
+         Seeds_left0 = as.numeric(Seeds_left0))
+
 ```
 
-## Graphs!
+## *Graphs!*
 
 ```{r}
 #plotting seed predation total against lynx presence
@@ -226,30 +232,100 @@ ggplot(aes(x = Lynx, y = Seeds_predated_total, color = Lynx)) +
   theme_bw() 
 ```
 
-## Model
+## *Model*
 
 ```{r}
 seed_predation_separated %>% 
   count(Lynx, Habitat, Microhabitat, Plot)
 
 # number of seeds predated ~ Microhabitat + Lynx Presence
-m.seeds.microhabitat.lynx <-
+m.seeds.habitat.microhabitat.lynx <-
 brm(data = seed_predation_separated, # Give the model the data
 # Choose a poisson distribution - THIS IS THE NEW PART!
-family = poisson(link = "log"),
+family = binomial(link = "logit"),
 # Specify the model here.
-Seeds_predated_total ~ 1 + Microhabitat + Lynx,
+Seeds_predated_total | trials(Seeds_left0) ~ 1 + Habitat + Microhabitat + Lynx + (1|Plot),
 # Here's where you specify parameters for executing the Markov chains
 # We're using similar to the defaults, except we set cores to 4 so the analysis runs fa
 iter = 2000, warmup = 1000, chains = 4, cores = 4,
 # Save the fitted model object as output - helpful for reloading in the output later
-file = "output/m.seeds.microhabitat.lynx")
+file = "output/m.seeds.habitat.microhabitat.lynx")
 ```
 
 ```{r}
-summary(m.seeds.microhabitat.lynx)
+summary(m.seeds.habitat.microhabitat.lynx)
 ```
 
 ```{r}
-plot(m.seeds.microhabitat.lynx)
+plot(m.seeds.habitat.microhabitat.lynx)
 ```
+
+```{r}
+# number of seeds predated ~ Microhabitat + Lynx Presence
+m.seeds.habitat.microhabitat.lynx.int <-
+brm(data = seed_predation_separated, # Give the model the data
+# Choose a poisson distribution - THIS IS THE NEW PART!
+family = binomial(link = "logit"),
+# Specify the model here.
+Seeds_predated_total | trials(Seeds_left0) ~ 0 + Habitat + Lynx*Microhabitat + (1|Plot),
+# Here's where you specify parameters for executing the Markov chains
+# We're using similar to the defaults, except we set cores to 4 so the analysis runs fa
+iter = 2000, warmup = 1000, chains = 4, cores = 4,
+# Save the fitted model object as output - helpful for reloading in the output later
+file = "output/m.seeds.habitat.microhabitat.lynx.int")
+```
+
+```{r}
+summary(m.seeds.habitat.microhabitat.lynx.int)
+```
+
+## Model Summary
+
+### Additive Model:
+
+Intercept = Forest Habitat, Open Microhabitat, No Lynx
+
+Open habitat: 0.16 increase in seeds predated compared to forest (not reasonably different from 0)
+
+Rock Microhabitat: 0.94 increase in seeds predated compared to open (reasonably different from 0)
+
+Shrub Microhabitat: 2.19 increase in seeds predated compared to open (reasonably different from 0)
+
+Lynx Present: 0.92 increase in seeds predated compared to lynx absent (not reasonably different from 0)
+
+```{r}
+loo(m.seeds.habitat.microhabitat.lynx)
+```
+
+```{r}
+waic(m.seeds.habitat.microhabitat.lynx)
+```
+
+### Interactive Model:
+
+Difference from 0
+
+Forest (-2.91) and open (-2.77) habitats are reasonably different from 0.
+
+In rock microhabitat, presence of lynx is not reasonably different from 0. This means that presence or absence of lynx does not significantly alter seed predation success in rock microhabitat.
+
+In shrub microhabitat, presence of lynx is not reasonably different from 0. This means that presence or absence of lynx does not significantly alter seed predation success in shrub microhabitat. Approaching on 0, so there is more of a difference between predator presence or absence than in rock microhabitat.
+
+```{r}
+loo(m.seeds.habitat.microhabitat.lynx.int)
+```
+
+```{r}
+waic(m.seeds.habitat.microhabitat.lynx.int)
+```
+
+### Predictive Plot
+
+```{r}
+pred.add <- predict_response(m.seeds.habitat.microhabitat.lynx, condition = c(Seeds_left0 = 8))
+plot(pred)
+```
+
+### Compare Models
+
+The additive model is better because it has lower PSIS (731.7) and WAIC (719.9) values compared to the interactive model's PSIS (751.6) and WAIC (739.3) values.
