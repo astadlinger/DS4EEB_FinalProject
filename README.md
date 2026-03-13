@@ -1,8 +1,5 @@
 # DS4EEB Final Project
 
-## Variables we need:
-### lynx presence, habitat, microhabitat, seed predation total
-
 ## To include in GitHub:
 ### 1. The motivating question, the rationale for the question, and sufficient background information to understand why the question is interesting and important
 #### How do predator presence and vegetation cover affect rodent foraging success?
@@ -17,3 +14,18 @@ In this instance, the target audience of findings like this would be the stakeho
 ### 5. Raw dataset(s), scripts, statistical outputs, and visualizations from throughout the process
 ### 6. All analysis steps and choices are documented with code and comments so that it the analysis is transparent and reproducible
 ### 7. Rendered Quarto document with code that presents the exploratory and explanatory data analysis phases through text, figures, and statistical and numerical analyses. If you prefer, the exploratory and explanatory phases can be presented in separate documents, with the explanatory document tailored for your target audience communication.
+
+
+# What is in this folder? 
+## data folder
+### This includes all the raw data and csv files. 
+## output folder
+### This includes all the exploratory visualizations, final vizualization, and models. 
+## DataExploration.qmd
+### Quarto document that has all data exploration.
+## ExplanatoryData.qmd
+### Quarto document that has the final, streamlined code that wrangles the data, creates the final vizualization, runs the models, and interprets the results. 
+## FinalProject.Rproj
+### Project organization folder for R Studio
+## README.md
+### What you are reading now. Explains the project background, requirements, and what is in the main folder. 
