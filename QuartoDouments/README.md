@@ -1,4 +1,4 @@
-# What's on this folder?
+# What's in this folder?
 ## DataExploration.pdf
 ### Rendered Quarto document that shows all steps of data exploration process.
 ## ExplanatoryData.pdf
