@@ -416,7 +416,7 @@ waic(m.seeds.habitat.microhabitat.lynx.int)
 ```{r}
 # run a predictive plot to see help evaluate model correctness
 pred.add <- predict_response(m.seeds.habitat.microhabitat.lynx, condition = c(Seeds_left0 = 8))
-plot(pred)
+plot(pred.add)
 ```
 
 # Compare Models
